@@ -38,13 +38,3 @@ systemctl start vncserver@:1.service
 firewall-cmd --permanent --add-service vnc-server
 
 systemctl restart firewalld.service
-
-How to Fix Unable to Start VNC Server Issue
-
-[root@tps tmp]# cd /tmp/
-
-[root@tps tmp]# ls -lart
-
-[root@tps tmp]# rm -rf .X11-unix
-
-然后启动vnc服务。
