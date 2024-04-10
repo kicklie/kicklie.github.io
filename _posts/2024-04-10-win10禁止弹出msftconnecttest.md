@@ -1,0 +1,11 @@
+---
+title: win10禁止弹出msftconnecttest
+date: 2024-04-10 14:36:00 +0800
+categories: [OS, Windows]
+tags: [win10]
+---
+
+开机总是有一个弹窗 http://www.msftconnecttest.com/redirect 
+输入“gpedit.msc”打开组策略控制台窗口。
+依次展开“计算机配置”、“管理模板”、“系统”和“Internet 通信管理”，然后单击“Internet 通信设置”。
+在详细信息窗格中，双击“关闭 Windows 网络连接状态指示器活动测试”，然后单击“已启用”。
