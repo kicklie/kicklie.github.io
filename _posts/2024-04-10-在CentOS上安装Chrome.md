@@ -1,5 +1,5 @@
 ---
-title: CentOS安装Chrome
+title: 在CentOS上安装Chrome
 date: 2024-04-10 15:56:00 +0800
 categories: [OS, Linux]
 tags: [chrome]

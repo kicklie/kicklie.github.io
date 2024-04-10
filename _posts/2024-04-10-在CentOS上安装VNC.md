@@ -1,5 +1,5 @@
 ---
-title: CentOS安装VNC
+title: 在CentOS上安装VNC
 date: 2024-04-10 15:38:00 +0800
 categories: [OS, Linux]
 tags: [VNC]
