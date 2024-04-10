@@ -1,6 +1,6 @@
 ---
 title: CentOS安装Chrome
-date: 2024-04-10 15:30:00 +0800
+date: 2024-04-10 15:56:00 +0800
 categories: [OS, Linux]
 tags: [chrome]
 ---
@@ -9,12 +9,12 @@ tags: [chrome]
    
    ### Fedora 34/33/32/31/30
    
-    dnf install fedora-workstation-repositories
-    dnf config-manager --set-enabled google-chrome
+   dnf install fedora-workstation-repositories
+   dnf config-manager --set-enabled google-chrome
    
    ### CentOS/RHEL 8.3/7.8
    
-    Run following command (copy & paste all lines to console) to create /etc/yum.repos.d/google-chrome.repo file:
+   Run following command (copy & paste all lines to console) to create  /etc/yum.repos.d/google-chrome.repo file:
     cat << EOF > /etc/yum.repos.d/google-chrome.repo
     [google-chrome]
     name=google-chrome
@@ -26,18 +26,16 @@ tags: [chrome]
 
 2. Install Google Chrome with YUM
    
-   ### Install Google Chrome Stable version
-   
    ### Fedora 34/33/32/31/30
    
-    dnf install google-chrome-stable
+   dnf install google-chrome-stable
    
    ### CentOS/RHEL 8.3
    
-    dnf install google-chrome-stable
+   dnf install google-chrome-stable
    
    ### CentOS/RHEL 7.8
    
-    yum install google-chrome-stable
+   yum install google-chrome-stable
 
 参考：https://www.if-not-true-then-false.com/2010/install-google-chrome-with-yum-on-fedora-red-hat-rhel/
