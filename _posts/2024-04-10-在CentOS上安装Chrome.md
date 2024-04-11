@@ -9,7 +9,8 @@ tags: [chrome]
 
 ##### Fedora 34/33/32/31/30
 
-dnf install fedora-workstation-repositories<br>dnf config-manager --set-enabled google-chrome  
+dnf install fedora-workstation-repositories<br>
+dnf config-manager --set-enabled google-chrome  
 
 ##### CentOS/RHEL 8.3/7.8
 
