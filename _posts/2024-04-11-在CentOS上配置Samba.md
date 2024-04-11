@@ -56,7 +56,7 @@ tags: [samba]
    path = /share  
    guest ok = Yes  
    read only = No  
-
+   
    然后可以在windows下访问\\\ip，即可看到share文件夹。
    
    [参考](https://www.linuxidc.com/Linux/2017-03/141390.htm)
