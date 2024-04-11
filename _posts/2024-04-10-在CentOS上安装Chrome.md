@@ -5,7 +5,7 @@ categories: [OS, CentOS]
 tags: [chrome]
 ---
 
-###Enable Google YUM repository    
+###1. Enable Google YUM repository    
 ####Fedora 34/33/32/31/30  
 dnf install fedora-workstation-repositories  
 dnf config-manager --set-enabled google-chrome  
@@ -20,7 +20,7 @@ gpgcheck=1
 gpgkey=https://dl.google.com/linux/linux_signing_key.pub  
 EOF  
 
-###Install Google Chrome with YUM  
+###2. Install Google Chrome with YUM  
 ####Fedora 34/33/32/31/30  
 dnf install google-chrome-stable  
 
