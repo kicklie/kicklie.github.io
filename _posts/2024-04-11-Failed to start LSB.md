@@ -1,6 +1,6 @@
 ---
 title: Failed to start LSB
-date: 2024-04-11 08:48:00 +0800
+date: 2024-04-11 08:55:00 +0800
 categories: [OS, CentOS]
 tags: [lsb]
 ---
