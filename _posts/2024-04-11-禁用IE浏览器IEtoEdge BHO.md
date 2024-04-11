@@ -4,10 +4,8 @@ date: 2024-04-11 09:05:00 +0800
 categories: [OS, Windows]
 tags: [ie11]
 ---
-
-打开注册表  
+  
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Ext\CLSID
-
-找到{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}后设置为0. 
+将{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}设置为0. 
 
 [参考](https://www.zabkat.com/blog/remove-edge-bho.htm)

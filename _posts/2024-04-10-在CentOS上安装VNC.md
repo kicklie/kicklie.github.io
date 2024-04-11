@@ -6,9 +6,7 @@ tags: [vnc]
 ---
 
 yum install tigervnc-server xorg-x11-fonts-Type1 -y  
-
 cp /lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@:1.service  
-
 vi /etc/systemd/system/vncserver@:1.service   
 Non-root user:  
 ExecStart=/sbin/runuser -l username -c "/usr/bin/vncserver %i"  
