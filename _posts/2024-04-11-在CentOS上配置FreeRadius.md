@@ -1,8 +1,8 @@
 ---
 title: 在CentOS上配置FreeRadius
 date: 2024-04-11 08:41:00 +0800
-categories: [OS, Linux]
-tags: [VNC]
+categories: [OS, CentOS]
+tags: [freeradius]
 ---
 
 前提：已经安装好CentOS，系统能够访问互联网，且yum源已配置好。（默认情况下，yum无需配置即可使用）

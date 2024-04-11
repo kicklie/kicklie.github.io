@@ -1,8 +1,8 @@
 ---
 title: 在CentOS上配置Samba
 date: 2024-04-11 08:38:00 +0800
-categories: [OS, Linux]
-tags: [VNC]
+categories: [OS, CentOS]
+tags: [samba]
 ---
 
 前提：关闭防火墙，关闭SElinux

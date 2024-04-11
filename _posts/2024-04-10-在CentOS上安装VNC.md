@@ -1,8 +1,8 @@
 ---
 title: 在CentOS上安装VNC
 date: 2024-04-10 15:38:00 +0800
-categories: [OS, Linux]
-tags: [VNC]
+categories: [OS, CentOS]
+tags: [vnc]
 ---
 
 yum install tigervnc-server xorg-x11-fonts-Type1 -y
