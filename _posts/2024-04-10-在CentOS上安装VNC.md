@@ -5,11 +5,11 @@ categories: [OS, CentOS]
 tags: [vnc]
 ---
 
-yum install tigervnc-server xorg-x11-fonts-Type1 -y
+yum install tigervnc-server xorg-x11-fonts-Type1 -y  
 
-cp /lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@:1.service
+cp /lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@:1.service  
 
-vi /etc/systemd/system/vncserver@:1.service
+vi /etc/systemd/system/vncserver@:1.service  
 
 Non-root user:
 
@@ -27,14 +27,14 @@ PIDFile=/root/.vnc/%H%i.pid
 
 ExecStart=/sbin/runuser -l my_user -c "/usr/bin/vncserver %i -geometry 1366x768"
 
-systemctl daemon-reload
+systemctl daemon-reload  
 
-vncpasswd
+vncpasswd  
 
-systemctl enable vncserver@:1.service
+systemctl enable vncserver@:1.service  
 
-systemctl start vncserver@:1.service
+systemctl start vncserver@:1.service  
 
-firewall-cmd --permanent --add-service vnc-server
+firewall-cmd --permanent --add-service vnc-server  
 
 systemctl restart firewalld.service

@@ -49,4 +49,4 @@ secret = testpassword
 }
 The client should also be configured to talk to the RADIUS server, by using the IP address of the machine running the RADIUS server. The client must use the same secret as configured above in the client section.
 
-http://wiki.freeradius.org/guide/Getting%20Started
+[参考](http://wiki.freeradius.org/guide/Getting%20Started)

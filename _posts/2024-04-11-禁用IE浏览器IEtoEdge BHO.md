@@ -11,4 +11,4 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Ext\CLSID
 
 then find {1FD49718-1D00-4B19-AF5F-070AF6D5D54C} (the clsid of IE_TO_EDGE_BHO.DLL) and set its value to zero.
 
-https://www.zabkat.com/blog/remove-edge-bho.htm
+[参考](https://www.zabkat.com/blog/remove-edge-bho.htm)

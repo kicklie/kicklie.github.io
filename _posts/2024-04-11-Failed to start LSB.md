@@ -5,7 +5,7 @@ categories: [OS, CentOS]
 tags: [lsb]
 ---
 
-Failed to start LSB: Bring up/down networking的解决方法。
+Failed to start LSB: Bring up/down networking的解决方法。  
 
 此博客记录Centos使用过程中解决问题的思路。
 1. 根据提示信息进行操作，查找错误信息。
@@ -13,9 +13,8 @@ Failed to start LSB: Bring up/down networking的解决方法。
 3. 根据错误信息进行问题定位并解决
 
 详情：
-在某次配置服务器DNS地址的过程中vi编辑文件卡死，只能关闭了putty。随后重启网卡则不能启动。
-使用命令systemctl status network.service查看网卡状态
-Failed to start LSB: Bring up/down networking
+在某次配置服务器DNS地址的过程中vi编辑文件卡死，只能关闭了putty。随后重启网卡则不能启动。使用命令systemctl status network.service查看网卡状态：
+Failed to start LSB: Bring up/down networking  
 
 查看系统日志 cat var/log/messages，日志中提示“设备MAC地址与预期不符”。
 
