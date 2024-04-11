@@ -11,7 +11,7 @@ dnf install fedora-workstation-repositories
 dnf config-manager --set-enabled google-chrome  
 
 ####CentOS/RHEL 8.3/7.8  
-cat << EOF > /etc/yum.repos.d/google-chrome.repo  
+\#cat << EOF > /etc/yum.repos.d/google-chrome.repo  
 [google-chrome]  
 name=google-chrome  
 baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64  
