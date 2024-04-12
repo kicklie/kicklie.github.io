@@ -1,7 +1,7 @@
 ---
 title: 在openwrt中针对某IP限速
 date: 2024-04-12 09:20:00 +0800
-categories: [OS, OpenWRT]
+categories: [OS, OPENWRT]
 tags: [电视盒子, 上传]
 ---
 
@@ -28,3 +28,12 @@ iptables -t filter -I FORWARD -m limit -d 192.168.200.102 --limit 100/s --limit-
 补充个细节点：100/s以及brust 100 这两个值分别有什么用处呢？可以简单理解，第一个100就是当下载速度稳定时的网速，而第二个值则是刚开始下载时的速度，假设配置的值是50/s brust 100，那么表现就是设备下行（比如下载时）前几秒的速度可能有200KB/s，然后就降到100KB/s稳定下来，这个200KB/S就是brust 100 决定的，50则是50/s决定的，当然这个具体50/s对应的下载速度多少KB/S需要自己一点点测试。
 
 [原文](https://www.right.com.cn/forum/thread-4056260-1-1.html)
+
+其他回答：
+官方的有 luci-app-nft-qos 这个限速插件，汉化包是 luci-i18n-nft-qos-zh-cn。<br>
+
+**问题**：大佬我按你说的添加mac限速规则到防火墙自定义规则之后设备能够限速了，但是我路由器开了定时重启，到时间设备重启之后限速的设备再连上去就失去限速功能了，得手动重启一下防火墙才能恢复设备限速规则，有啥办法解决这个问题吗？<br>
+**回答**：
+sleep 30
+iptables -t filter -I FORWARD -m mac --mac-source FC:7C:02:87:61:13 -j DROP
+iptables -t filter -I FORWARD -m mac --mac-source FC:7C:02:87:61:13 -m limit --limit 1/s --limit-burst 1 -j ACCEP
