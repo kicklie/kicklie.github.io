@@ -1,7 +1,7 @@
 ---
 title: 在openwrt中针对某IP限速
-date: 2024-04-12 09:20:00 +0800
-categories: [OS, OPENWRT]
+date: 2024-04-12 17:20:00 +0800
+categories: [OS, OpenWRT]
 tags: [电视盒子, 上传]
 ---
 
@@ -12,7 +12,7 @@ tags: [电视盒子, 上传]
 iptables -t filter -I FORWARD -s 192.168.200.102 -j DROP<br>
 iptables -t filter -I FORWARD -m limit -s 192.168.200.102 --limit 100/s --limit-burst 100 -j ACCEPT<br>
 
-**规则组2**：下面两行规则是根据ip限制其下行（下载）的网速
+**规则组2**：下面两行规则是根据ip限制其下行（下载）的网速<br>
 iptables -t filter -I FORWARD -d 192.168.200.102 -j DROP<br>
 iptables -t filter -I FORWARD -m limit -d 192.168.200.102 --limit 100/s --limit-burst 100 -j ACCEPT<br>
 #规则参数说明：
