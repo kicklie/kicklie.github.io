@@ -1,6 +1,6 @@
 ---
-title: 使用Wireshark给电视抓包去广告
-date: 2024-04-15 09:21:00 +0800
+title: 使用Wireshark给电视抓包
+date: 2024-04-15 09:41:00 +0800
 categories: [生活, 电视]
 tags: [抓包，广告]
 ---
