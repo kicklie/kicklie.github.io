@@ -28,11 +28,11 @@ iptables -t filter -I FORWARD -m limit -d 192.168.200.102 --limit 100/s --limit-
 
 [原文](https://www.right.com.cn/forum/thread-4056260-1-1.html)
 
-其他回答：
+其他回答：<br>
 官方的有 luci-app-nft-qos 这个限速插件，汉化包是 luci-i18n-nft-qos-zh-cn。<br>
 
 **问题**：大佬我按你说的添加mac限速规则到防火墙自定义规则之后设备能够限速了，但是我路由器开了定时重启，到时间设备重启之后限速的设备再连上去就失去限速功能了，得手动重启一下防火墙才能恢复设备限速规则，有啥办法解决这个问题吗？<br>
-**回答**：
+**回答**：<br>
 sleep 30<br>
 iptables -t filter -I FORWARD -m mac --mac-source FC:7C:02:87:61:13 -j DROP<br>
 iptables -t filter -I FORWARD -m mac --mac-source FC:7C:02:87:61:13 -m limit --limit 1/s --limit-burst 1 -j ACCEP<br>
