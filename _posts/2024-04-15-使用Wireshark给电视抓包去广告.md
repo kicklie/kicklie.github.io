@@ -5,4 +5,5 @@ categories: [生活, 电视]
 tags: [海信]
 ---
 
-![参考](https://dotatong.com/index.php/archives/98/)
+[参考1](https://dotatong.com/index.php/archives/98/)<br>
+[参考2](https://www.znds.com/tv-695099-1-1.html)
