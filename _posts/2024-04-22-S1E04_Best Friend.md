@@ -1,11 +1,11 @@
 ---
-title: S1E04
+title: S1E04_Best Friend
 date: 2024-04-22 17:30:00 +0800
 categories: [英语, 听力]
 tags: [Peppa Pig]
 ---
 
-**Vocabulary：** wave, wand, lick, bowl, plaster, tummy, rumble,<br>
+**Vocabulary：** wave, wand, lick, bowl, plaster, tummy, rumble<br>
 **Sentences:**
 - I’m going to wave my magic wand and turn you into a frog.
 - George doesn’t like playing **on his own**.
