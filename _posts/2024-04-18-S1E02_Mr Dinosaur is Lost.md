@@ -6,11 +6,11 @@ tags: [Peppa Pig]
 ---
 
 **Vocabulary：**<br>
-- dinosaur：/ˈdaɪnəsɔː(r)/. 恐龙；过时、落伍的人或事物
-- scare(scary)：to frighten sb. 惊吓；使害怕；使恐惧
-- bath：/bɑːθ/. have a bath/take a bath.
-- tuck：
-- draught：国际跳棋<br>
+- dinosaur: /ˈdaɪnəsɔː(r)/ 恐龙；过时、落伍的人或事物
+- scare(scary): to frighten sb 惊吓；使害怕；使恐惧
+- bath: /bɑːθ/ have a bath/take a bath.
+- tuck:
+- draught: 国际跳棋<br>
 
 **Sentences:**
 - His **favourite toy** is Mr Dinosaur.

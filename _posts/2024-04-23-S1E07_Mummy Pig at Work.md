@@ -5,10 +5,6 @@ categories: [英语, 听力]
 tags: [Peppa Pig]
 ---
 
-**Vocabulary:**<br>
-- petal：/ˈpetl/ 花瓣
-- stalk：/stɔːk/ （叶）柄；（花）梗；（果实的）柄；（植物的）茎，秆<br>
-
 **Sentences:**
 - Mummy is **working on her computer**. Daddy is **making soup** for lunch.
 - **As long as** you don’t **disturb** her.

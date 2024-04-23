@@ -6,8 +6,8 @@ tags: [Peppa Pig]
 ---
 
 **Vocabulary:**<br>
-- petal：/ˈpetl/ 花瓣
-- stalk：/stɔːk/ （叶）柄；（花）梗；（果实的）柄；（植物的）茎，秆<br>
+- petal:/ˈpetl/ 花瓣
+- stalk:/stɔːk/ （叶）柄；（花）梗；（果实的）柄；（植物的）茎，秆<br>
 
 **Sentences:**
 - George, are you **looking forward to** the playgroup?
@@ -16,4 +16,4 @@ tags: [Peppa Pig]
 - Peppa **is proud of** her little brother George.
 - George, you’ve done it all wrong.
 - I think George and Peppa’s pictures should **go on the wall**.
-- The children’s parents are here to **pick them up**.
+- The children’s parents are here to **pick them up**. （开车）接人
