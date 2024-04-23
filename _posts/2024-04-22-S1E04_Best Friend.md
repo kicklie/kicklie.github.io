@@ -6,13 +6,13 @@ tags: [Peppa Pig]
 ---
 
 **Vocabulary：** 
-- wave: 波浪，挥动，挥手
+- wave：波浪，挥动，挥手
 - wand：/wɒnd/, 魔法棒
 - lick：舔
 - plaster：膏药，创可贴
 - tummy：肚子（对儿童说话时使用）
 - rumble：/ˈrʌmbl/. to make a long deep sound or series of sounds 发出持续而低沉的声音；发出隆隆声
-- tickle: /ˈtɪkl/, to move your fingers on a sensitive part of sb's body in a way that makes them laugh 呵痒；胳肢<br>
+- tickle：/ˈtɪkl/, to move your fingers on a sensitive part of sb's body in a way that makes them laugh 呵痒；胳肢<br>
 
 **Sentences:**
 - I’m going to wave my magic wand and turn you into a frog.
