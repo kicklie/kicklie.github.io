@@ -5,8 +5,9 @@ categories: [英语, 听力]
 tags: [Peppa Pig]
 ---
 
-**Vocabulary：** 
-- wave: 波浪，挥动，挥手
-
 **Sentences:**
-- I’m going to wave my magic wand and turn you into a frog.
+- Peppa and George are **playing hide and seek**.
+- It is **George's turn** to hide.
+- He must quickly find somewhere to hide **before Peppa finishes counting**.
+- **Just in time**.
+- **There is** that strange noise again.
