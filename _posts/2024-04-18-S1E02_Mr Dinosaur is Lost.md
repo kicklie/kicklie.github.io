@@ -16,7 +16,7 @@ tags: [Peppa Pig]
 - His **favourite toy** is Mr Dinosaur.
 - George **likes to scare** Peppa with Mr Dinosaur.
 - At supper/bath time, Mr Dinosaur sits next to George.
-- When George goes to bed, Mr. Dinosaur is tucked up with him.
+- When George goes to bed, Mr. Dinosaur **is tucked up** with him.
 - What is the matter/what's wrong with you?
 - George, have you lost Mr Dinosaur?
 - A detective is a very important person who **is good at** finding things.

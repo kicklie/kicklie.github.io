@@ -14,6 +14,8 @@ tags: [Peppa Pig]
 - There’ll be you and Mr Dinosaur there to **keep him company**.
 - **I wish I had** a little brother like George.
 - Peppa **is proud of** her little brother George.
+- Now you paint the flower’s petals.
+- Now you paint the stalk and the leaves.
 - George, you’ve done it all wrong.
 - I think George and Peppa’s pictures should **go on the wall**.
 - The children’s parents are here to **pick them up**. （开车）接人

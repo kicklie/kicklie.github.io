@@ -13,7 +13,7 @@ tags: [Peppa Pig]
 - It is **raining/snowing/shining**.
 - It's stopped raining.
 - Peppa **loves jumping** up and down in muddy puddles.
-- Geogre **likes to jump** in muddy puddles.
+- Geogre **likes to jump** in **muddy puddles**.
 - You must **wear your boots**.
 - They are **having a lot of fun**.
 - Have you just **had a bath**?
