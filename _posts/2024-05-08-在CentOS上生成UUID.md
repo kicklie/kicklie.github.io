@@ -1,6 +1,6 @@
 ---
 title: 在CentOS上生成UUID
-date: 2024-04-11 08:41:00 +0800
+date: 2024-05-08 15:11:00 +0800
 categories: [OS, CentOS]
 tags: [uuid]
 ---
